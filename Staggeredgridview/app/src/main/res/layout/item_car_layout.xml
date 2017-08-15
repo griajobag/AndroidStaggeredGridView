@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_car"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="?attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_view_car"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/jazzrs"/>
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:id="@+id/text_view_car_name"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:text="Name : Jazz RS 2010"/>
+
+            <TextView
+                android:id="@+id/text_view_car_price"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Price : Rp. 200 jt"/>
+
+
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/text_view_car_qty"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:text="Quantity : 20 Unit"/>
+
+            <TextView
+                android:id="@+id/text_view_car_available"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Available Here : NO"
+                android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
